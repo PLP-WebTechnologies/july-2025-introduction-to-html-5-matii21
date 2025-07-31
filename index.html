@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!-- Declares this document as an HTML5 document -->
+<html lang="en">
+<!-- Sets the primary language of the document to English for accessibility -->
+
+<head>
+    <!-- Meta information about the document -->
+    <meta charset="UTF-8">
+    <!-- Specify character encoding as UTF-8 for proper text rendering -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures proper responsive behavior on mobile devices -->
+    
+    <meta name="description" content="Learn HTML5 semantic structure, web accessibility, and SEO basics with this comprehensive beginner's guide to modern web development.">
+    <!-- Provides a concise description of the page for search engines and social media -->
+    
+    <meta name="keywords" content="HTML5, semantic HTML, web accessibility, SEO basics, web development, ARIA, heading hierarchy">
+    <!-- Defines keywords for search engines (less important now but still used) -->
+    
+    <meta name="author" content="Web Development Expert">
+    <!-- Specifies the author of the document -->
+    
+    <title>Modern Web Guide: HTML5, Accessibility & SEO Basics</title>
+    <!-- Sets the title of the page that appears in browser tabs and search results -->
+</head>
+
+<body>
+    <!-- Skip link for accessibility - allows keyboard users to skip navigation -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <!-- Header section containing the site title and description -->
+    <header>
+        <h1>Modern Web Development Essentials</h1>
+        <!-- Main heading of the page (only one H1 per page) -->
+        
+        <p>Mastering HTML5, Accessibility, and SEO Fundamentals</p>
+        <!-- Subtitle/description for the site -->
+    </header>
+    
+    <!-- Navigation section with main site links -->
+    <nav aria-label="Main navigation">
+        <!-- ARIA label to help screen readers understand the navigation purpose -->
+        
+        <ul>
+            <!-- Unordered list for navigation items -->
+            <li><a href="#html5-section">HTML5 Structure</a></li>
+            <!-- Navigation link to HTML5 section -->
+            
+            <li><a href="#accessibility-section">Accessibility</a></li>
+            <!-- Navigation link to Accessibility section -->
+            
+            <li><a href="#seo-section">SEO Basics</a></li>
+            <!-- Navigation link to SEO section -->
+            
+            <li><a href="#resources-section">Resources</a></li>
+            <!-- Navigation link to Resources section -->
+        </ul>
+    </nav>
+    
+    <!-- Main content area of the page -->
+    <main id="main">
+        <!-- Unique ID to allow skip link to jump to main content -->
+        
+        <!-- Section about HTML5 semantic elements -->
+        <section id="html5-section">
+            <h2>HTML5 Semantic Elements</h2>
+            <!-- Section heading (H2 as it's a subsection of the main H1) -->
+            
+            <!-- Article about semantic tags -->
+            <article>
+                <h3>Understanding Semantic Tags</h3>
+                <!-- Article heading (H3 as it's a subsection of the H2) -->
+                
+                <time datetime="2025-07-01">July 01, 2025</time>
+                <!-- Time element with machine-readable datetime attribute -->
+                
+                <p>HTML5 introduced semantic elements that clearly describe their meaning:</p>
+                <!-- Paragraph with introductory text -->
+                
+                <ul>
+                    <!-- Unordered list for semantic elements -->
+                    <li><code><header></code> - Introductory content or navigation</li>
+                    <li><code><nav></code> - Navigation links</li>
+                    <li><code><main></code> - Main content of the document</li>
+                    <li><code><article></code> - Self-contained content</li>
+                    <li><code><section></code> - Document sections</li>
+                    <li><code><aside></code> - Related content (sidebars)</li>
+                    <li><code><footer></code> - Footer information</li>
+                </ul>
+                
+                <p>These elements help search engines and assistive technologies understand content structure.</p>
+            </article>
+            
+            <!-- Article about heading hierarchy -->
+            <article>
+                <h3>Heading Hierarchy</h3>
+                <time datetime="2025-07-10">July 10, 2025</time>
+                
+                <p>Proper heading structure is essential for SEO and accessibility:</p>
+                
+                <ol>
+                    <!-- Ordered list for heading hierarchy guidelines -->
+                    <li>Use only one <code><h1></code> per page</li>
+                    <li>Structure with H2 through H6 in logical order</li>
+                    <li>Avoid skipping heading levels</li>
+                    <li>Each section should begin with an appropriate heading</li>
+                </ol>
+                
+                <p>This creates a document outline that screen readers can navigate effectively.</p>
+            </article>
+        </section>
+        
+        <!-- Section about accessibility principles -->
+        <section id="accessibility-section">
+            <h2>Web Accessibility Principles</h2>
+            
+            <!-- Article about ARIA attributes -->
+            <article>
+                <h3>ARIA Attributes</h3>
+                <time datetime="2025-07-15">July 15, 2025</time>
+                
+                <p>Accessible Rich Internet Applications (ARIA) enhance accessibility:</p>
+                
+                <ul>
+                    <li><code>aria-label</code> - Provides an accessible name</li>
+                    <li><code>aria-labelledby</code> - References labeling element</li>
+                    <li><code>aria-describedby</code> - References descriptive element</li>
+                    <li>Landmarks: main, nav, banner, contentinfo</li>
+                </ul>
+                
+                <p>Ensure interactive elements are keyboard accessible with visible focus indicators.</p>
+            </article>
+            
+            <!-- Article about color and contrast -->
+            <article>
+                <h3>Color & Contrast</h3>
+                <time datetime="2025-07-20">July 20, 2025</time>
+                
+                <p>Maintaining proper color contrast is essential:</p>
+                
+                <ul>
+                    <li>Text and background: minimum 4.5:1 contrast ratio</li>
+                    <li>Large text: minimum 3:1 contrast ratio</li>
+                    <li>Avoid conveying information through color alone</li>
+                    <li>Provide sufficient spacing between elements</li>
+                </ul>
+                
+                <p>Test designs with accessibility tools for WCAG compliance.</p>
+            </article>
+        </section>
+        
+        <!-- Section about SEO -->
+        <section id="seo-section">
+            <h2>Search Engine Optimization</h2>
+            
+            <!-- Article about on-page SEO elements -->
+            <article>
+                <h3>On-Page SEO Elements</h3>
+                <time datetime="2025-07-25">July 25, 2025</time>
+                
+                <p>Essential HTML elements for search engine optimization:</p>
+                
+                <ul>
+                    <li><strong>Title Tags</strong>: Unique, descriptive page titles</li>
+                    <li><strong>Meta Descriptions</strong>: Compelling page summaries</li>
+                    <li><strong>Header Tags</strong>: Proper H1-H6 hierarchy</li>
+                    <li><strong>Alt Text</strong>: Descriptive image descriptions</li>
+                    <li><strong>Internal Links</strong>: Logical connections between pages</li>
+                </ul>
+                
+                <p>Search engines favor content that provides value to users.</p>
+            </article>
+            
+            <!-- Article about content optimization -->
+            <article>
+                <h3>Content Optimization</h3>
+                <time datetime="2025-07-31">July 31, 2025</time>
+                
+                <p>Strategies for creating SEO-friendly content:</p>
+                
+                <ol>
+                    <li>Research and naturally incorporate relevant keywords</li>
+                    <li>Write comprehensive content that thoroughly covers topics</li>
+                    <li>Use descriptive URLs that reflect page content</li>
+                    <li>Implement structured data where appropriate</li>
+                    <li>Ensure fast loading times and mobile responsiveness</li>
+                </ol>
+                
+                <p>Focus on providing value to your audience for long-term SEO success.</p>
+            </article>
+        </section>
+        
+        <!-- Sidebar with resources -->
+        <aside id="resources-section">
+            <h2>Learning Resources</h2>
+            
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML Documentation</a></li>
+                <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG Guidelines</a></li>
+                <li><a href="https://web.dev/">Web.dev by Google</a></li>
+                <li><a href="https://www.a11yproject.com/">The A11Y Project</a></li>
+                <li><a href="https://www.seobility.net/en/seocheck/">SEO Checker Tool</a></li>
+            </ul>
+        </aside>
+    </main>
+    
+    <!-- Footer section with contact information -->
+    <footer>
+        <h2>Contact Information</h2>
+        
+        <p>Created with HTML5, accessibility, and SEO best practices</p>
+        <p>Email: <a href="mEmail:mahteme@gmail.com">mahteme@gmail.com</a></p>
+        <p>&copy; 2025 Web Development Guide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
